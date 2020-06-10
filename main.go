@@ -30,9 +30,12 @@ func main() {
 		s[v.Ord] = fmt.Sprintf("%s %s = %d;", v.Type, fld, v.Ord+1)
 	}
 
+	fmt.Printf("message %s {\n", *structName)
 	for _, v := range s {
-		fmt.Println(v)
+		fmt.Printf("\t%s\n", v)
 	}
+
+	fmt.Printf("}\n")
 }
 
 func must(err error) {
