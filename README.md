@@ -1,5 +1,11 @@
 # stp - protobuf message field generator out of Golang struct.
 
+## Installation
+
+```shell
+go get -u github.com/ekhabarov/stp
+```
+
 ## Example
 
 Go struct from [example/example.go](./example/example.go)
