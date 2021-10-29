@@ -1,4 +1,4 @@
-# stp - protobuf message field generator out of Golang struct.
+# Convert Go structures into Protobuf messages.
 
 ## Installation
 
