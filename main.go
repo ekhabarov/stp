@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ekhabarov/sts"
 	"github.com/iancoleman/strcase"
+	"github.com/powerflyco/sts"
 )
 
 var (
